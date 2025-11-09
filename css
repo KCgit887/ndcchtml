@@ -1,0 +1,8 @@
+📁 pdf-to-html-converter/
+├── .github/
+│   └── workflows/
+│       └── pdf-to-html.yml
+├── docs/
+│   └── (this will hold your converted HTMLs)
+├── sample.pdf
+└── README.md
