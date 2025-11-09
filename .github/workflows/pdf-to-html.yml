@@ -11,7 +11,7 @@ permissions:
 jobs:
   convert:
     runs-on: ubuntu-latest
-    container: bwits/pdf2htmlex  # 🧰 Prebuilt container with pdf2htmlEX installed
+    container: openlabs/docker-pdf2htmlex
 
     steps:
       - name: Checkout repo
